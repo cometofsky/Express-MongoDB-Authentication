@@ -1,0 +1,29 @@
+{
+  "name": "express_mongo_authorization",
+  "version": "1.0.0",
+  "description": "Authentication system using express framework and mongodb database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "authentication",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "me@rafi.pro",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.9.5",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta.12"
+  }
+}
